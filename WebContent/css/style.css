@@ -1,0 +1,201 @@
+
+.header{ border-radius:0px !important;}
+.login-container{ margin-top:50px;}
+.login-container .form-control{ margin-bottom:10px;}
+.login-container .form-group{ margin:0px 25% !important;}
+.login-container button{ float:right;}
+
+.logo {
+    background-image: url("../images/logo_mid.png");
+    height: 100px;
+    width: 100px;
+	display:block;
+	 left: 20px;
+    position:absolute;
+	z-index: 100;
+	}	
+a.navbar-brand{ padding-left:118px;}
+.inpu input, .inpu select{ margin:10px 0px 0px 0px;}
+.inpu .checkbox{ margin-top:16px !important;}
+.other-des input{ margin-top:0px;}
+.inpu .radio{
+	display: inline-table;   
+    margin-right: 10px;
+	}
+.radio, .checkbox {   
+    margin-bottom: 5px !important;;
+    margin-top: 17px !important;
+	}
+.monthdate select.form-control{ width:180px; float:left; margin-right:10px;}
+.monthdate .inpu{ width:150px;}
+.other-des{ display:none;}
+
+.select-hh{
+	background-color: #363AAF;
+    display: inline-table;
+    padding: 0px 10px 10px 10px;
+    width: 100%;
+	border-radius:5px;
+	}
+.select-hh .title-lable{
+	color:#fff;
+	}
+.select-rp{
+	background-color: #fff;
+    display: inline-table;
+    padding: 0px 10px 10px 10px;
+    width: 100%;
+	border-radius:5px;
+	}
+.form-control{ padding:6px !important;}
+option .select-text{ 
+	color:red !important;
+	padding:10px;
+	}
+.form-structure{ 
+	width:53%; 
+	margin:0 auto;
+	}
+.form-structure .nav-tabs a{ 
+	padding:10px !important;
+	}
+.form-group {
+    margin-bottom: 0px !important;
+}
+.form-control span{
+	margin-right:10px !important;
+	}
+h4{ 
+	background-color:#4db848; 
+	color:#fafafa !important; 
+	padding:10px; 
+	border-radius:4px;
+	}
+	
+.form-probtn select{width:86%; float:left;}
+.form-probtn button{ float:left; margin-left:5px;}
+
+span.title-lable{ 
+	width:41%; 
+	float:left; 	
+	text-align:left;	
+	color:#363aaf;
+	font-weight:bold;
+	margin-top:17px;	
+	 }
+.inpu, .text-output{ 
+	width:59%; 
+	float:left; 	
+	}
+
+.text-output{ 
+	margin-top:10px;
+	}
+input.other-inpu{
+	width:100%; 
+	float:left;
+	margin-top:1px;	
+	margin-bottom:20px;
+	}
+.text-output{
+	line-height:34px;
+	}
+.inpu button{ margin-top:10px;}
+input.levl-2{ width:80%;}
+
+.clear{ clear:both;}
+.clear2{ height:30px; width:100% !important; display:block; clear:both;}
+
+.sublist{width:100%;}
+.sublist span.title-lable{ line-height:20px;}
+.sublist span.title-lable, .sublist .inpu, .sublist .other-inpu  { width:100%; text-align:left;}
+
+.form-footer {
+    border-top: 1px solid #E5E5E5;
+    margin-top: 35px;
+    padding: 20px;
+    text-align: right;
+	}
+
+.product-set{ border:1px solid #ccc; min-height:110px; background-color:#f2f2f2; padding:6px; margin-top:10px;}
+
+td.resp-code>div{ width:100%; margin-bottom:5px;}
+.create-student input, .create-student textarea{ margin-bottom:10px !important;}
+
+.dash-head{
+	background-color:#ebebeb !important; 
+	color:#000;	
+	}
+.completed-profile, .panel-heading{
+	background-image: linear-gradient(to bottom, #DFF0D8 0%, #DFF0D8 100%) !important;
+	background-color:#DFF0D8;	
+	color: #3C763D !important;
+	font-size:13px !important;
+	font-weight:bold;
+	padding:6px !important;		
+	}
+.panel-title a{
+	font-size:14px !important;
+	}
+.panel-default {
+    border-color: #ccc !important;
+}
+.completed-profile .btn, .panel-heading .btn{
+	float:right;
+	margin-left:6px;
+	}
+.created-profile span{
+	margin-top:2px;
+	}
+.created-profile span, .created-profile .text-output{
+	line-height:26px;
+	margin-top:2px;
+	}
+
+
+	
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #48b643 0%, #419f3d 100%) !important;
+    background-repeat: repeat-x;
+	border-left:0px !important;
+	border-right:0px !important;
+	border-top:0px !important;
+	border-bottom:4px solid #363AAF !important;
+	}
+.navbar-inverse a{color:#fafafa !important;}
+.navbar-toggle{border:1px solid #3a8f36 !important;}
+
+.navbar-inverse ul.nav { margin-top:0px !important; margin-bottom:0px !important;}
+.navbar-inverse .nav a{border-bottom:1px solid #3a8f36 !important;}
+
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{background-color: #363AAF !important;}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-image: linear-gradient(to bottom, #363AAF 0%, #363AAF 100%) !important;
+    background-repeat: repeat-x;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+@media screen and (max-width: 768px) {
+.login-container .form-group{ margin:0px 15px !important;}
+.form-structure, .inpu, .text-output, span.title-lable{ 
+	width:100%; 	
+	}
+span.info-lable{width:100% !important;}	
+.text-output{
+width:70%;
+}
+}
+@media screen and (max-width: 640px) {
+.logo {
+    background-image: url("../images/logo_small.png");
+    height: 64px;
+    width: 64px;
+	display:block;
+	 left: 2px;
+    position:absolute;
+	}	
+a.navbar-brand{ padding-left:68px;}
+}
